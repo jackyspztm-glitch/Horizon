@@ -1,4 +1,4 @@
-{
+fw{
   "ai": {
     "provider": "openai",
     "model": "gpt-5.6-luna",
@@ -155,6 +155,18 @@
     "category_groups": {},
     "default_group": "other",
     "default_group_limit": null
+  },
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "smtp_username": "${GMAIL_ADDRESS}",
+    "imap_enabled": false,
+    "imap_server": "",
+    "imap_port": 993,
+    "email_address": "${GMAIL_ADDRESS}",
+    "password_env": "EMAIL_PASSWORD",
+    "sender_name": "Horizon Daily"
   },
   "webhook": {
     "enabled": true,
